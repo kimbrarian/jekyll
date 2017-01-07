@@ -339,7 +339,7 @@ section h2.section-heading {
 background:url('img/webtreats-grungy-teal.jpg');
 }
 
-#experience.container {background:#fff;}
+.container {background:#fff;}
 
 section h3.section-subheading {
     margin-bottom: 75px;
