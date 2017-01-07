@@ -336,7 +336,7 @@ section h2.section-heading {
 }
 
 #experience {
-background:background-image: url('/img/webtreats-grungy-teal.jpg');
+background:url('img/webtreats-grungy-teal.jpg');
 }
 
 #experience.container {background:#fff;}
