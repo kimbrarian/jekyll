@@ -339,7 +339,7 @@ section h2.section-heading {
 background:red
 }
 
-#experience .container {background:#fff;}
+#experience.container {background:#fff;}
 
 section h3.section-subheading {
     margin-bottom: 75px;
