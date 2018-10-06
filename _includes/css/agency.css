@@ -186,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    /**color: #{{ site.data.template.color.secondary }};**/
+    color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -218,28 +218,21 @@ fieldset[disabled] .btn-xl.active {
     transition: all ease .35s;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #000;
-}
-
-
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-     #{{ site.data.template.color.primary }};
-   
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #000;
-    /*background-color: #{{ site.data.template.color.primary }};*/
-    background-color:#fff;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #000;
+    color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -266,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #E1388C;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
