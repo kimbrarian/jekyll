@@ -46,8 +46,10 @@ people:
 social:
   - title: twitter
     url: http://twitter.com/kimbrarian
+    alt= twitter
   - title: linkedin
     url: https://www.linkedin.com/in/kimvassiliadis
+    alt: linkedin
   #- title: stack-overflow
     #url: http://stackoverflow.com/questions/tagged/jekyll
   #- title: bitbucket 
